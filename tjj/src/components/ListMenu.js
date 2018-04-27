@@ -37,6 +37,18 @@ class ListMenu extends Component {
                             <ListItem value="" primaryText="Adults" />,
                         ]}
                     />
+                    <ListItem
+                        key={2}
+                        primaryText="Instructors"
+                        initiallyOpen={false}
+                        primaryTogglesNestedList={true}
+                        nestedItems={[
+                            <ListItem value="" primaryText="Eric Marentette" />,
+                            <ListItem value="" primaryText="Mark Curran" />,
+                            <ListItem value="" primaryText="TBA" />,
+                            <ListItem value="" primaryText="TBA" />,
+                        ]}
+                    />
                 </List>
             </div>
         );

@@ -5,7 +5,15 @@ body {
   background-attachment: fixed;
 }
 
+.boxtext {
+  font-size: 0.85em;
+}
+
 .row {
   margin-bottom: 0px;
   margin-top: 0px;
+}
+
+h3 {
+  font-size: 1.2em;
 }

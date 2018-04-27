@@ -21,7 +21,7 @@ class DrawerMenu extends Component {
                     label="Toggle Drawer"
                     onClick={this.handleToggle}><Menu color={'white'} /></IconButton>
                 <Drawer
-                    style={{opacity: '0.97'}}
+                    style={{opacity: '0.95'}}
                     docked={false}
                     width={200}
                     open={this.state.open}
