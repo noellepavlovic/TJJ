@@ -7,7 +7,7 @@ class Home extends Component {
         return (
             <div>
 
-                <div className="row" style={{ marginTop: "65px", backgroundImage: "url(./images/placeholder.png)" }}>
+                <div className="row" style={{ marginTop: "64px", backgroundColor: "rgb(87, 88, 91, 0.2)"}}>
                     <div className="col s3">
                     </div>
                     <div className="col s6 center-align" style={{ marginTop: "15px" }}>
@@ -47,10 +47,7 @@ class Home extends Component {
                     </div>
 
                 </div>
-                <div className="row" style={{ backgroundColor: "#545659" }}>
-                    <h3 style={{padding: "10px", marginTop: "0px"}}>Academy News</h3>
-                </div>
-                <div className="row" style={{ backgroundColor: "white", color: "black"}}>
+                <div className="row" style={{ backgroundColor: "rgb(113, 115, 119, 0.7)" }}>
                     <div className="col s6">
                         <h3>Location</h3>
                         <p>12365 Tecumseh Rd E, Windsor, ON N8N 1M5 </p>
@@ -58,9 +55,15 @@ class Home extends Component {
                             clients from Windsor, Tecumseh, Lakeshore and the rest of Essex County.</p>
                     </div>
                     <div className="col s6 center-align">
-                        <iframe title="Map to TJJ" width="600" height="350" frameborder="0" style={{border: "0"}} src="https://www.google.com/maps/embed/v1/place?q=Ribeiro%20Jiu-Jitsu%20Tecumseh&key=AIzaSyCnFCGtFepTtGvVy9GnKJdDXMjH28n8SHM"
-                            allowfullscreen></iframe>
+                        <iframe title="Map to TJJ" width="600" height="350" frameBorder="0" style={{border: "0", marginTop: "7px"}} src="https://www.google.com/maps/embed/v1/place?q=Ribeiro%20Jiu-Jitsu%20Tecumseh&key=AIzaSyCnFCGtFepTtGvVy9GnKJdDXMjH28n8SHM"
+                            allowFullScreen></iframe>
                     </div>
+                </div>
+                <div className="row" style={{ backgroundColor: "white", color: "black"}}>
+                    <h3 style={{padding: "10px", marginTop: "0px"}}>Contact</h3>  
+                </div>
+                <div className="row" style={{ backgroundColor: "rgb(113, 115, 119, 0.7)" }}>
+                    <h3 style={{padding: "10px", marginTop: "0px"}}>News & Events</h3>
                 </div>
             </div>
         );
