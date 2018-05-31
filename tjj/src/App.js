@@ -17,9 +17,27 @@ class App extends Component {
     
         this.state = {
           content: "",
-          schedule: []
+          schedule: [],
+          home: [],
+          
         };
       }
+
+    getHome = () => {
+        axios.get(`http://localhost:3000/home/`)
+        .then((response) => {
+            let __content = response.data;
+            console.log("here")
+            console.log(response)
+            this.setState({
+                home: __content
+            })
+            console.log(this.state.content)
+            this.props.history.push(`/`);
+
+        })
+      }
+    
 
     getPage = (source) => {
         axios.get(`http://localhost:3000/content/?title=${source}`)
@@ -55,8 +73,8 @@ class App extends Component {
             <div>
                 <NavMenu getPage={(source) => this.getPage(source)} getSchedule={() => this.getSchedule()} />
                     <Switch>
-                        <Route exact path='/' component={Home} />
-                        <Route exact path='/schedule' render={(props) => <Schedule content={this.state.content} getSchedule={(day, program) => this.getSchedule(day, program) }{...props} /> } /> 
+                        <Route exact path='/' render={(props) => <Home content={this.state.home} getHome={() => this.getHome() }{...props} /> } />
+                        <Route exact path='/schedule' render={(props) => <Schedule schedule={this.state.schedule} getSchedule={(day, program) => this.getSchedule(day, program) }{...props} /> } /> 
                         <Route path='/:page' render={(props) => <Page content={this.state.content} getPage={(source) => this.getPage(source)}{...props}/> } />
                            
                     </Switch>        

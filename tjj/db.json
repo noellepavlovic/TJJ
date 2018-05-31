@@ -19,12 +19,8 @@
       {
         "title": "adults",
         "pageContent": "<h3><b>Adults<\/b><\/h3><p>This program is specifically developed to gradually improve your abilities and take into account people of all ages, both male and female.<\/p><p>You will start in a beginner class with people just like yourself. Class by class you will learn practical self defense as well as cardiovascular drills and yoga stretches to increase your strength and flexibility.<p><p>Many of our students are amazed at their increased physical endurance and weight loss they have achieved!<\/p><p>Whether you are practicing jiu jitsu on the ground or kick-boxing on your feet, you will be taught at a pace that is right for you.<\/p>"
-      },
-      {
-        "title": "schedule",
-        "pageContent": "<h3>Tiny Tigers<\/h3><p>Our Tiny Tiger program is specifically developed to teach preschoolers ages 4-6 years. Teaching important life skills in a fun, exciting, and positive manner.<\/p><p>This program will improve your child's listening skills, focus, confidence, self control and so much more!<\/p><p><b>Your child will achieve more than just learning self-defense.<\/b><\/p><p>The Tiny Tiger classes will keep your child physically fit and many of our unique drills used in class show children the benefits of good behavior. Best of all, your child's class curriculum will also help them see the value of teamwork, good manners and trying their best outside of the Academy too.<\/p><p>Your child will love this exciting, fun, high energy class and so will you!<\/p>"
       }
-      
+            
     ],
     
       "schedule": [
@@ -101,6 +97,38 @@
        "content": "15"
    }
 
-      ]
+      ],
+
+    "home": [
+      {
+        "title": "bannerImg",
+        "pageContent": "<img src=\".\/images\/tjj_logo.png\" alt=\"Tecumseh Jiu Jitsu\" \/>"
+      },
+      {
+        "title": "bannerTitle",
+        "pageContent": "<p style={{ fontSize: \"1.8em\"}}> Welcome to Tecumseh Jiu Jitsu!<\/p>"
+      },
+      {
+        "title": "infoLeft",
+        "pageContent": "<h3 className=\"center-align\">What is Brazilian Jiu Jitsu?<\/h3><p className=\"boxtext\">Brazilian Jiu-Jitsu is a martial art, combat sport and self-defense system that focuses on grappling and specifically ground fighting techniques. The art is derived from Japanese Kodokan Judo and teaches that a smaller and physically weaker person can successfully defend against a larger and physically stronger attacker with the correct use of leverage and understanding of bio-mechanics.<\/p>"
+      },
+      {
+        "title": "infoCentre",
+        "pageContent": "<h3 className=\"center-align\">History of Ribeiro Jiu Jitsu<\/h3>\r\n<p className=\"boxtext\">The Ribeiro Jiu-Jitsu Association (RJJA) was founded in 1995 by the legendary Saulo Ribeiro and is currently one of the most successful BJJ teams in the world. Saulo Ribeiro is considered to be one of the premier BJJ instructors in the world today and one of the greatest BJJ champions in history. Saulo has produced many champions under his leadership, but the one who stands out the most is his younger brother, Alexandre \u201CXande\u201D Ribeiro. Xande Ribeiro is a 3rd degree Black Belt in Jiu-Jitsu, a six time World Jiu-Jitsu Champion, and two time ADCC Submission Grappling World Champion. Today, Saulo Ribeiro, alongside his brother Alexandre \u201CXande\u201D Ribeiro teaches at the University of Jiu-Jitsu in San Diego, California, which they also founded. They also make time to visit each of the RJJA academies every year to teach and provide their mentorship.<\/p>"
+      },
+      {
+        "title": "infoRight",
+        "pageContent": "<h3 className=\"center-align\">Tecumseh Jiu Jitsu<\/h3><p className=\"boxtext\">Tecumseh Jiu Jitsu was founded by Miss Loree and Dean Hersche as Kingsville Martial Arts Academy. After years of successful operation in Kingsville, Dean and Miss Loree relocated to Tecumseh and rebranded the school as Tecumseh Martial Arts Academy. In continuing the proven legacy of the best Brazilian Jiu Jitsu instruction in the area, Eric Marentette and Miss Loree currently teach Brazilian Jiu-Jitsu to people of all ages. Tecumseh Jiu Jitsu maintains its strong ties to the Ribeiro Jiu-Jitsu Association (RJJA) and its teachings.<\/p>"
+      },
+      {
+        "title": "locLeft",
+        "pageContent": "<h3>Location<\/h3><p>12365 Tecumseh Rd E, Windsor, ON N8N 1M5 <\/p>\r\n<p style={{fontSize: \"0.8em\"}}> We are conveniently located at 12365 Tecumseh Road East in Tecumseh, Ontario. This location allows us to service clients from Windsor, Tecumseh, Lakeshore and the rest of Essex County.<\/p>"
+      },
+      {
+        "title": "locRight",
+        "pageContent": "<iframe title=\"Map to TJJ\" width=\"600\" height=\"350\" frameBorder=\"0\" style={{border: \"0\", marginTop: \"7px\"}} src=\"https:\/\/www.google.com\/maps\/embed\/v1\/place?q=Ribeiro%20Jiu-Jitsu%20Tecumseh&key=AIzaSyCnFCGtFepTtGvVy9GnKJdDXMjH28n8SHM\" allowFullScreen><\/iframe>"
+      }
+
+    ]
      
   }

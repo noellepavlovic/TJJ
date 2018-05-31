@@ -19,12 +19,13 @@ class Schedule extends Component {
     
     render() {
     console.log(this.props.match)
+    console.log(this.props.schedule)
         return (
             <div>
                 <NavMenu />
-                <div className="container" style={{color: 'black', marginTop: '100px'}}>
+                <div className="container center-align" style={{color: 'black', marginTop: '100px'}}>
                     <div className="row">
-                    <div className="col s2">
+                        <div className="col s1">   
                         </div>
                         <div className="col s2">
                             <h3>Monday</h3>
@@ -46,74 +47,9 @@ class Schedule extends Component {
                         <div className="col s2">
                         </div>
                         <div className="col s2">
-                            {this.props.schedule}
+                            
                         </div>
-                        {/* <div className="col s2">
-                            {this.props.getSchedule("tuesday","tinyTigers")}
-                            {this.props.content}
-                        </div>
-                        <div className="col s2">
-                            {this.props.getSchedule("wednesday","tinyTigers")}
-                            {this.props.content}
-                        </div>
-                        <div className="col s2">
-                            {this.props.getSchedule("thursday","tinyTigers")}
-                            {this.props.content}
-                        </div>
-                        <div className="col s2">
-                            {this.props.getSchedule("Friday","tinyTigers")}
-                            {this.props.content}
-                        </div>
-
-                    </div>
-                    <div className="row">
-                    <div className="col s2">
-                        </div>
-                        <div className="col s2">
-                            {this.props.getSchedule("monday","juniorGrapplers")}
-                            {this.props.content}
-
-                        </div>
-                        <div className="col s2">
-                            {this.props.getSchedule("tuesday","juniorGrapplers")}
-                            {this.props.content}
-                        </div>
-                        <div className="col s2">
-                            {this.props.getSchedule("wednesday","juniorGrapplers")}
-                            {this.props.content}
-                        </div>
-                        <div className="col s2">
-                            {this.props.getSchedule("thursday","juniorGrapplers")}
-                            {this.props.content}
-                        </div>
-                        <div className="col s2">
-                            {this.props.getSchedule("Friday","juniorGrapplers")}
-                            {this.props.content}
-                        </div>
-                    </div>
-                    <div className="row">
-                    <div className="col s2">
-                        </div>
-                        <div className="col s2">
-                            {this.props.getSchedule("monday","adults")}
-                            {this.props.content}
-                        </div>
-                        <div className="col s2">
-                            {this.props.getSchedule("tuesday","adults")}
-                            {this.props.content}
-                        </div>
-                        <div className="col s2">
-                            {this.props.getSchedule("wednesday","adults")}
-                            {this.props.content}
-                        </div>
-                        <div className="col s2">
-                            {this.props.getSchedule("thursday","adults")}
-                            {this.props.content}
-                        </div>
-                        <div className="col s2">
-                            {this.props.getSchedule("Friday","adults")}
-                            {this.props.content}
-                        </div> */}
+                       
                 </div>
                 
             </div>
